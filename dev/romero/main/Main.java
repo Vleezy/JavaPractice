@@ -9,20 +9,21 @@ public class Main {
 		myBall.capacity = 10;
 		
 		BasketBall BasketBall = new BasketBall();
-		Baseball baseBball = new Baseball();
+		Baseball Baseball = new Baseball();
 		
 		BasketBall.color="Blue";
 		BasketBall.name="BasketBall";
-		BasketBall.isNBA="true";
-		BasketBall.capacity="23";
+//		BasketBall.isNBA="true";
+//		BasketBall.capacity="23";
 		
-		Baseball.color="Brown";
+//		Baseball.color="Brown";
 		BasketBall.name="Baseball";
 		
 		
 		BasketBall.bounce();
-		Baseball.isNBA();
+//		Baseball.isNBA();
 		
 		System.out.println(myBall.capacity);
+		System.out.println("vlad :D");
 	}
 }
